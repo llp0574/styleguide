@@ -112,7 +112,7 @@ CSS 有些属性是可以缩写的，如 `padding`、`margin` 等，这些属性
 
 示例：
 ```css
-/* 推荐 */
+// 推荐
 .username input {
   // ...
 }
@@ -120,7 +120,7 @@ CSS 有些属性是可以缩写的，如 `padding`、`margin` 等，这些属性
   // ...
 }
 
-/* 不推荐 */
+// 不推荐
 .page .header .login .username input {
   // ...
 }

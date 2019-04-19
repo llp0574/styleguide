@@ -28,7 +28,7 @@
 示例：
 ```css
 .first-line {
-  // ...
+  ...
 }
 ```
 
@@ -52,7 +52,7 @@ id在页面是唯一的，不能多次使用，类名选择器可以重复使用
 .one,
 .selector,
 .per-line {
-  // ...
+  ...
 }
 ```
 
@@ -65,11 +65,11 @@ id在页面是唯一的，不能多次使用，类名选择器可以重复使用
 
 示例：
 ```css
-// 我是注释1
+/* 我是注释1 */
 .selector {
-  // 我是注释2
+  /* 我是注释2 */
   z-index: 1;
-  // 我是注释3
+  /* 我是注释3 */
   color: #333;
 }
 ```
@@ -112,20 +112,20 @@ CSS 有些属性是可以缩写的，如 `padding`、`margin` 等，这些属性
 
 示例：
 ```css
-// 推荐
+/* 推荐 */
 .username input {
-  // ...
+  ...
 }
 .comment .avatar {
-  // ...
+  ...
 }
 
-// 不推荐
+/* 不推荐 */
 .page .header .login .username input {
-  // ...
+  ...
 }
 .comment div * {
-  // ...
+  ...
 }
 ```
 
@@ -188,12 +188,12 @@ body {
 
 示例：
 ```css
-// 推荐
+/* 推荐 */
 .box {
   transition: color 1s, border-color 1s;
 }
 
-// 不推荐
+/* 不推荐 */
 .box {
   transition: all 1s;
 }
@@ -209,22 +209,22 @@ body {
 典型的，可以使用 translate 来代替 left 作为动画属性。
 示例：
 ```css
-// 推荐
+/* 推荐 */
 .box {
   transition: transform 1s;
 }
 .box:hover {
-  // 向右移动20px 
+  /* 向右移动20px */
   transform: translate(20px);
 }
 
-// 不推荐
+/* 不推荐 */
 .box {
   left: 0;
   transition: left 1s;
 }
 .box:hover {
-  // 向右移动20px 
+  /* 向右移动20px */
   left: 20px;
 }
 ``` 

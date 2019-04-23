@@ -486,7 +486,9 @@ h3 {
 }
 
 h3 {
-  .big-text(); /* 1 */
-  .clearfix(); /* 2 */
+  /* 1 */
+  .big-text(); 
+  /* 2 */
+  .clearfix(); 
 }
 ```

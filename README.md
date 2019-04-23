@@ -442,7 +442,7 @@ CSS3 浏览器私有前缀在前，标准前缀在后。
 ```css
 @import "mixins/size.less";
 
-@default-text-color: #333333;
+@default-text-color: #333;
 
 .page {
   width: 960px;

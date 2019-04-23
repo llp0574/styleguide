@@ -439,7 +439,7 @@ CSS3 浏览器私有前缀在前，标准前缀在后。
 2. 变量声明
 3. 样式声明
 
-```css
+```less
 @import "mixins/size.less";
 
 @default-text-color: #333;
@@ -469,7 +469,7 @@ CSS3 浏览器私有前缀在前，标准前缀在后。
 2. 如果混入的是本身不输出内容的 `mixin`，需要在 `mixin` 后添加括号（即使不传参数），以区分这是否是一个 className。
 
 示例：
-```css
+```less
 /* 不推荐 */
 .big-text {
   font-size: 2em;

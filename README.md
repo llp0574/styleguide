@@ -202,12 +202,12 @@ id 在页面是唯一的，不能多次使用，类名选择器可以重复使�
 ```css
 * {
   /* 会去遍历所有标签，影响性能 */
-  padding:0 .3rem;
+  padding: 0 .3rem;
 }
 
 .header a {
   /* 同样会去遍历所有<a>标签，影响性能 */
-  font-size:0.28rem;
+  font-size: 0.28rem;
 }
 ```
 
